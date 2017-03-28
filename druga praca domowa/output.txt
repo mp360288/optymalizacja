@@ -1,0 +1,17 @@
+Rozwi¹zanie:
+max x1+x2 dla ograniczeñ -x1+x2<=1, x1<=3, x2<=2
+Program:
+	Maksimum funkcji wynosi 5.0
+	Wynik maksymalizacji: [3.0, 2.0]
+Solwer:
+	OPTIMAL SOLUTION FOUND
+	{"x1":3,"x2":2}
+
+Przyk³ad (z wyk³adu)
+max -3x1+2x2 dla ograniczeñ 2x1-x2<=4, x1+3x2>=5, x2>=0
+Program:
+	Maksimum funkcji wynosi 5.57142857143
+	Wynik maksymalizacji: [2.4285714285714288, 0.85714285714285698]
+Solwer:
+	OPTIMAL SOLUTION FOUND
+	{"x1":2.4285714285714284,"x2":0.8571428571428571}

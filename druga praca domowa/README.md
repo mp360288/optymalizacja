@@ -1,0 +1,1 @@
+program napisano w jêzyku Python
