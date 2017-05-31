@@ -1,0 +1,52 @@
+	111000000000000000
+	000110000000000000
+	000001110000000000
+	000000001110000000
+	000000000001100000
+	000000000000011100
+A	000000000000000011
+	100100001000000000
+	000001000001010000
+	010000100000000010
+	000010000100000000
+	000000010000001000
+	001000000000000100
+	000000000010100001
+
+
+	10000001000000
+	10000000010000
+	10000000000010
+	01000001000000
+	01000000001000
+	00100000100000
+	00100000010000
+	00100000000100
+A^T	00010001000000
+	00010000001000
+	00010000000001
+	00001000100000
+	00001000000001
+	00000100100000
+	00000100000100
+	00000100000010
+	00000010010000
+	00000010000001
+
+A€{0,1}^14x18
+x€{0,1}^18
+y€{0,1}^14
+b = wektor 14 jedynek
+c = wektor 18 jedynek
+
+problem bazowy:
+max c^T * x
+przy A * x = b
+
+problem dualny:
+min b^T * y
+przy A^T * y >= c
+
+Kolumny macierzy A to oznaczenie ka¿dej krawêdzi: dla wierszy odpowiadaj¹cych kolejnym wierzcho³kom A, B, C, D, E, F, G, p, q, r, s, t, u, v, w jedynka oznacza zaczepienie danej krawêdzi w danym wierzcho³ku. 
+Problem mówi, ¿e z ka¿dego wierzcho³ka musi wyjœæ dok³adnie jedna krawêdŸ oraz ¿e chcemy znaleŸæ mo¿liwie wiele takich krawêdzi. 
+Problem dualny mo¿na zinterpretowaæ jako szukanie minimum takich wierzcho³ków, ¿e wychodz¹ce z nich krawêdzie s¹ wszystkimi w danym grafie. 
