@@ -1,5 +1,4 @@
-︠da533de3-b430-497f-b1d2-7137969e2efas︠
-p = MixedIntegerLinearProgram(maximization=False)
+︠p = MixedIntegerLinearProgram(maximization=False)
 y = p.new_variable(real=true)
 x = p.new_variable(real=true)
 
@@ -38,7 +37,6 @@ p.add_constraint(0 <= x[3] <= 1)
 p.add_constraint(0 <= x[4] <= 1)
 p.add_constraint(0 <= x[5] <= 1)
 p.add_constraint(0 <= x[6] <= 1)
-
 
 p.set_binary(x)
 p.set_binary(y)
