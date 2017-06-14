@@ -1,0 +1,40 @@
+Rozwiazanie problemu AmericanSteelProblem.lp
+Number of pivot steps: 0
+0
+None
+Rozwiazanie problemu BeerDistributionProblem.lp
+Number of pivot steps: 0
+0
+None
+Rozwiazanie problemu ColonellBlotto.lp
+Number of pivot steps: 2
+0.0
+(1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
+Rozwiazanie problemu ComputerPlantProblem.lp
+Number of pivot steps: 0
+0
+None
+Rozwiazanie problemu Furniture.lp
+Number of pivot steps: 2
+32000000.0
+(8.0, 16.0)
+Rozwiazanie problemu Gams10a.lp
+Number of pivot steps: 0
+0
+None
+Rozwiazanie problemu SpongeRollProblem.lp
+Number of pivot steps: 0
+0
+None
+Rozwiazanie problemu Szach.lp
+Number of pivot steps: 16
+30000
+(1/2, 1/2, 0, 1/2, 0, 1/2, 1/2, 1/2, 0)
+Rozwiazanie problemu WhiskasModel.lp
+Number of pivot steps: 2
+-4800.0
+(0.0, 60.0)
+Rozwiazanie problemu WhiskasModel2.lp
+Number of pivot steps: 12
+-4800.0
+(0.0, 0.0, 0.0, 0.0, 60.0, 0.0)
