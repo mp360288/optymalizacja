@@ -1,0 +1,45 @@
+pierwszy ruch
+wynik kostki = 1 => optymalne zagranie to (1,1)
+wynik kostki = 2 => optymalne zagranie to (1,2)
+wynik kostki = 3 => optymalne zagranie to (1,3)
+wynik kostki = 4 => optymalne zagranie to (1,4)
+zagranie przeciwnika - (1,1)
+wynik kostki = 1 => optymalne zagranie to (1,2)
+wynik kostki = 2 => optymalne zagranie to (1,2)
+wynik kostki = 3 => optymalne zagranie to (1,3)
+wynik kostki = 4 => optymalne zagranie to (1,4)
+zagranie przeciwnika - (1,2)
+wynik kostki = 1 => optymalne zagranie to (1,3)
+wynik kostki = 2 => optymalne zagranie to (1,3)
+wynik kostki = 3 => optymalne zagranie to (1,3)
+wynik kostki = 4 => optymalne zagranie to (1,4)
+zagranie przeciwnika - (1,3)
+wynik kostki = 1 => optymalne zagranie to (1,4)
+wynik kostki = 2 => optymalne zagranie to (1,4)
+wynik kostki = 3 => optymalne zagranie to (1,4)
+wynik kostki = 4 => optymalne zagranie to (1,4)
+zagranie przeciwnika - (1,4)
+wynik kostki = 1 => optymalne zagranie to (2,2)
+wynik kostki = 2 => optymalne zagranie to (2,2)
+wynik kostki = 3 => optymalne zagranie to (2,3)
+wynik kostki = 4 => optymalne zagranie to (2,4)
+zagranie przeciwnika - (2,1)
+wynik kostki = 1 => optymalne zagranie to (2,2)
+wynik kostki = 2 => optymalne zagranie to (2,2)
+wynik kostki = 3 => optymalne zagranie to (2,3)
+wynik kostki = 4 => optymalne zagranie to (2,4)
+zagranie przeciwnika - (2,2)
+wynik kostki = 1 => optymalne zagranie to (2,3)
+wynik kostki = 2 => optymalne zagranie to blef
+wynik kostki = 3 => optymalne zagranie to (2,3)
+wynik kostki = 4 => optymalne zagranie to (2,4)
+zagranie przeciwnika - (2,3)
+wynik kostki = 1 => optymalne zagranie to (2,4)
+wynik kostki = 2 => optymalne zagranie to blef
+wynik kostki = 3 => optymalne zagranie to blef
+wynik kostki = 4 => optymalne zagranie to (2,4)
+zagranie przeciwnika - (2,4)
+wynik kostki = 1 => optymalne zagranie to blef
+wynik kostki = 2 => optymalne zagranie to blef
+wynik kostki = 3 => optymalne zagranie to blef
+wynik kostki = 4 => optymalne zagranie to blef
