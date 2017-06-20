@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[27]:
-
 p = MixedIntegerLinearProgram(maximization=False, solver = "GLPK")
 f=open('wynik3.txt',"w")
 for i in range(9):
@@ -64,18 +59,3 @@ for i in range(9):
                 f.write('optymalne zagranie to ' + str(a))
         f.write('\n')
 f.close() 
-
-
-
-
-
-
-
-
-
-
-
-# In[ ]:
-
-
-
