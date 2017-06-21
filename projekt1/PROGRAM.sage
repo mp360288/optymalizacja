@@ -30,7 +30,7 @@ def max_wsp_in(self):
     for n in self.possible_entering():
         i = list(self.nonbasic_variables()).index(n)
         wsp[n] = self.objective_coefficients()[i]
-	return max(wsp.iteritems(),key=operator.itemgetter(1))[0]
+    return max(wsp.iteritems(),key=operator.itemgetter(1))[0]
 
 def max_wsp_out(self):
 	return self.possible_leaving()[0]
@@ -41,7 +41,7 @@ def min_wsp_in(self):
     for n in self.possible_entering():
         i = list(self.nonbasic_variables()).index(n)
         wsp[n] = self.objective_coefficients()[i]
-	return min(wsp.iteritems(),key=operator.itemgetter(1))[0]
+    return min(wsp.iteritems(),key=operator.itemgetter(1))[0]
 
 def min_wsp_out(self):
 	return self.possible_leaving()[0]
@@ -72,8 +72,8 @@ def ObjectiveValues(self):
 ## petla for po zmiennych nalezacych do self.possible_entering
 ## tworzymy zmienna temp1 - kopie self i dodajemy tam rozpatrywana v1
 ## petla for w srodku robi to samo co poprzenida ale dla temp1
-## ale wywala to co by³o ropatrywane
-## zapisujemy w val wartoœæ funkcji celu dla danych v1 i v2
+## ale wywala to co byÂ³o ropatrywane
+## zapisujemy w val wartoÅ“Ã¦ funkcji celu dla danych v1 i v2
 ## zwracamy slownik wartosci val
 
 def max_wzrost_in(self):
