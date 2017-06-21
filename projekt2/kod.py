@@ -1,4 +1,4 @@
-p = MixedIntegerLinearProgram(maximization=False, solver = "GLPK")
+p = MixedIntegerLinearProgram(maximization=True, solver = "GLPK")
 f=open('wynik3.txt',"w")
 for i in range(9):
     f.write('zagranie przeciwnika - ' + str(i))
